@@ -74,5 +74,8 @@ crashlytics-build.properties
 # iOS/Xcode builds
 CrazyBike/
 
+# Claude Code configuration (local settings)
+.claude/
+
 # macOS
 .DS_Store
