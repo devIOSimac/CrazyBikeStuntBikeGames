@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Scenes/MainMenu_New.unity
+    guid: 31240cba793047a49ba4d0e0d30880bc
+  - enabled: 1
+    path: Assets/_Scenes/Level1_Stunts.unity
+    guid: c90cb093766ab0644b737929a2a9e6d6
+  - enabled: 1
+    path: Assets/_Scenes/Level2_Stunts.unity
+    guid: 5f40748239a5fa14780580995a714aa4
+  - enabled: 1
+    path: Assets/_Scenes/Level3_Stunts.unity
+    guid: 0339b6a96de86e14f9679587656c019d
+  - enabled: 1
+    path: Assets/_Scenes/Level4_Stunts.unity
+    guid: 22a2ab0b5060754429f42ce4d2fe94c0
+  - enabled: 1
+    path: Assets/_Scenes/Level5_Stunts.unity
+    guid: a9a7049ddeec7d44a8bbec61d42c86a8
+  - enabled: 1
+    path: Assets/_Scenes/Level_1_Camera.unity
+    guid: 759e07ea8606e704fbbc3e7e9fe84816
+  - enabled: 1
+    path: Assets/_Scenes/Level_2_Camera.unity
+    guid: e1d82c6014b90b942a0b7e6a4701a31a
+  - enabled: 1
+    path: Assets/_Scenes/Level_3_Camera.unity
+    guid: d87b33481194f454d94f8d1cb4ae7ef9
+  - enabled: 1
+    path: Assets/_Scenes/Level_4_Camera.unity
+    guid: c7b1d832dc5e5b442819ebd1fa0f3171
+  - enabled: 1
+    path: Assets/_Scenes/Level_5_Camera.unity
+    guid: 864eff3ff97a0094988beb91e928bb85
+  - enabled: 1
+    path: Assets/_Scenes/Level (1)_Story.unity
+    guid: fde93357c8f0cf840a66931dac6973df
+  - enabled: 1
+    path: Assets/_Scenes/Level (2)_Story.unity
+    guid: c1c0610aea149f44da1d1e21723996e4
+  - enabled: 1
+    path: Assets/_Scenes/Level (3)_Story.unity
+    guid: 98599f927e9043549beb0ef1b81c3185
+  - enabled: 1
+    path: Assets/_Scenes/Level (4)_Story.unity
+    guid: a02e175dac2cf3f48861cfd1e79df1cb
+  - enabled: 1
+    path: Assets/_Scenes/Level (5)_Story.unity
+    guid: 0b2cadaee7b0f274683ac4a2c989f009
+  - enabled: 1
+    path: Assets/_Scenes/Level 1_Race 1.unity
+    guid: 7607b30834efeb9498e0c0e7c5590e4b
+  - enabled: 1
+    path: Assets/_Scenes/Level 2_Race.unity
+    guid: c58d5a511b3f05d43b929efa13562af5
+  - enabled: 1
+    path: Assets/_Scenes/Level 3_Race.unity
+    guid: 4c68e58bf6813c249820fa1cd6a2b28b
+  - enabled: 1
+    path: Assets/_Scenes/Level 4_Race.unity
+    guid: 53bda01cba0f4ee43889301a830fa3a9
+  - enabled: 1
+    path: Assets/_Scenes/Level 5_Race.unity
+    guid: 732022d965b3c9b4f92d067490a9fa81
+  - enabled: 1
+    path: Assets/_Scenes/Environment.unity
+    guid: b926878dfa4baf8418c6b8c2ad7a4d3f
+  m_configObjects: {}

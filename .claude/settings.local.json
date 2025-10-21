@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(awk -F: '{sum+=$2} END {print sum}')",
+      "Read(//Applications/**)",
+      "Read(//Users/hamza_ST/Library/**)",
+      "Bash(cat:*)",
+      "Bash(sqlite3:*)",
+      "Bash(git config:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

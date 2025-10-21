@@ -1,0 +1,463 @@
+fileFormatVersion: 2
+guid: 4771a316ab179f749a26733186544c61
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Orange Button Spritesheet trimed
+    21300002: Long White Button Spritesheet trimed
+    21300004: score
+    21300006: Close
+    21300008: previous level btn
+    21300010: SpriteSheet Driving Simulator_1
+    21300012: horn
+    21300014: mic
+    21300016: refuel
+    21300018: windscreen
+    21300020: double indicator
+    21300022: headLight
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 47
+  maxTextureSize: 256
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 16
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Orange Button Spritesheet trimed
+      rect:
+        serializedVersion: 2
+        x: 132.25
+        y: 120
+        width: 61.25
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3.25, y: 2.5, z: 2.75, w: 2.25}
+      outline:
+      - - {x: -30.625, y: -12.5}
+        - {x: -30.625, y: 12.5}
+        - {x: 30.625, y: 12.5}
+        - {x: 30.625, y: -12.5}
+      physicsShape:
+      - - {x: -30.625, y: -12.5}
+        - {x: 30.625, y: -12.5}
+        - {x: 30.625, y: 12.5}
+        - {x: -30.625, y: 12.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a21ca8f465bd32479b891071b4364b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Long White Button Spritesheet trimed
+      rect:
+        serializedVersion: 2
+        x: 194.25
+        y: 106.5
+        width: 61
+        height: 10.75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1.25, y: 1.25, z: 1.25, w: 1.25}
+      outline:
+      - - {x: -30.5, y: -5.375}
+        - {x: -30.5, y: 5.375}
+        - {x: 30.5, y: 5.375}
+        - {x: 30.5, y: -5.375}
+      physicsShape:
+      - - {x: -30.5, y: -5.375}
+        - {x: 30.5, y: -5.375}
+        - {x: 30.5, y: 5.375}
+        - {x: -30.5, y: 5.375}
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeeed2f7cc6f87d49b7c6e42a7f76d82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: score
+      rect:
+        serializedVersion: 2
+        x: 0.75
+        y: 65.25
+        width: 82
+        height: 11.5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1.75, y: 2, z: 2.25, w: 1.5}
+      outline:
+      - - {x: -41, y: -5.75}
+        - {x: -41, y: 5.75}
+        - {x: 41, y: 5.75}
+        - {x: 41, y: -5.75}
+      physicsShape:
+      - - {x: -41, y: -5.75}
+        - {x: 41, y: -5.75}
+        - {x: 41, y: 5.75}
+        - {x: -41, y: 5.75}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358905c6a779a6846b8e217ab800224d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Close
+      rect:
+        serializedVersion: 2
+        x: 1.25
+        y: 40.5
+        width: 23.5
+        height: 23.25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.75, y: -11.625}
+        - {x: -11.75, y: 11.625}
+        - {x: 11.75, y: 11.625}
+        - {x: 11.75, y: -11.625}
+      physicsShape:
+      - - {x: -11.75, y: -11.625}
+        - {x: 11.75, y: -11.625}
+        - {x: 11.75, y: 11.625}
+        - {x: -11.75, y: 11.625}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ada813ea57ccfd46a43af601dcded67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: previous level btn
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 214.75
+        width: 41
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4880952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: -20.75}
+        - {x: -20.5, y: -20.75}
+        - {x: -20.5, y: 21.25}
+        - {x: 18.5, y: 21.25}
+        - {x: 20.5, y: 18.25}
+      physicsShape:
+      - - {x: -16.5, y: 21.25}
+        - {x: -20.5, y: 18.25}
+        - {x: -20.5, y: -20.75}
+        - {x: 20.5, y: -20.75}
+        - {x: 20.5, y: 21.25}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88cd48ebc7198049a9cbd97eb3ff4bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Driving Simulator_1
+      rect:
+        serializedVersion: 2
+        x: 43.5
+        y: 214.75
+        width: 42
+        height: 42
+      alignment: 9
+      pivot: {x: 0.4910714, y: 0.4880952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.875, y: -20.75}
+        - {x: -20.875, y: -17.75}
+        - {x: -20.875, y: 21.25}
+        - {x: 21.125, y: 21.25}
+        - {x: 21.125, y: -20.75}
+      physicsShape:
+      - - {x: -20.875, y: 21.25}
+        - {x: -20.875, y: -19.75}
+        - {x: -17.875, y: -20.75}
+        - {x: 21.125, y: -20.75}
+        - {x: 21.125, y: 20.25}
+        - {x: 19.125, y: 21.25}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f79ae050da00e49b343051f6d7124e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: horn
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 214.75
+        width: 42
+        height: 42
+      alignment: 9
+      pivot: {x: 0.4910714, y: 0.4880952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.375, y: -20.75}
+        - {x: -21.375, y: -16.75}
+        - {x: -21.375, y: 17.25}
+        - {x: -19.375, y: 21.25}
+        - {x: 20.625, y: 21.25}
+        - {x: 20.625, y: -15.75}
+        - {x: 14.625, y: -20.75}
+      physicsShape:
+      - - {x: -20.375, y: 21.25}
+        - {x: -21.375, y: 20.25}
+        - {x: -21.375, y: -18.75}
+        - {x: -20.375, y: -20.75}
+        - {x: 16.625, y: -20.75}
+        - {x: 20.625, y: -19.75}
+        - {x: 20.625, y: 21.25}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0faacbcc66e9b4b43bf14f6d7093cf22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mic
+      rect:
+        serializedVersion: 2
+        x: 128.5
+        y: 214.75
+        width: 42
+        height: 42
+      alignment: 9
+      pivot: {x: 0.4910714, y: 0.4880952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.125, y: -20.75}
+        - {x: -20.875, y: -20.75}
+        - {x: -20.875, y: 21.25}
+        - {x: 21.125, y: 21.25}
+      physicsShape:
+      - - {x: -14.875, y: 21.25}
+        - {x: -20.875, y: 14.25}
+        - {x: -20.875, y: -14.75}
+        - {x: -13.875, y: -20.75}
+        - {x: 16.125, y: -20.75}
+        - {x: 21.125, y: -14.75}
+        - {x: 21.125, y: 16.25}
+        - {x: 18.125, y: 21.25}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75dea9afa8d1f3d49826b129602f839f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: refuel
+      rect:
+        serializedVersion: 2
+        x: 128.5
+        y: 172
+        width: 42
+        height: 42
+      alignment: 9
+      pivot: {x: 0.4910714, y: 0.4910714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.125, y: -21.375}
+        - {x: -20.875, y: -21.375}
+        - {x: -20.875, y: 20.625}
+        - {x: 16.125, y: 20.625}
+        - {x: 21.125, y: 16.625}
+      physicsShape:
+      - - {x: -15.875, y: 20.625}
+        - {x: -20.875, y: 19.625}
+        - {x: -20.875, y: -18.375}
+        - {x: -16.875, y: -21.375}
+        - {x: 21.125, y: -21.375}
+        - {x: 21.125, y: 19.625}
+        - {x: 20.125, y: 20.625}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36308399c7f7c6f4dad02d5951a4b4c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: windscreen
+      rect:
+        serializedVersion: 2
+        x: 171.25
+        y: 172
+        width: 42
+        height: 42
+      alignment: 9
+      pivot: {x: 0.4910714, y: 0.4910714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.875, y: -21.375}
+        - {x: -21.125, y: -21.375}
+        - {x: -21.125, y: 20.625}
+        - {x: 20.875, y: 20.625}
+        - {x: 20.875, y: -17.375}
+      physicsShape:
+      - - {x: 13.875, y: 20.625}
+        - {x: -16.125, y: 20.625}
+        - {x: -21.125, y: 14.625}
+        - {x: -21.125, y: -21.375}
+        - {x: 19.875, y: -21.375}
+        - {x: 20.875, y: -19.375}
+        - {x: 20.875, y: 17.625}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc21a6a2700f2484780137dae5b67888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: double indicator
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 129.5
+        width: 41
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4880952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: -21}
+        - {x: -20.5, y: -21}
+        - {x: -20.5, y: 21}
+        - {x: 16.5, y: 21}
+        - {x: 20.5, y: 16}
+        - {x: 20.5, y: -19}
+      physicsShape:
+      - - {x: -18.5, y: 21}
+        - {x: -20.5, y: 20}
+        - {x: -20.5, y: -21}
+        - {x: 20.5, y: -21}
+        - {x: 20.5, y: 21}
+      tessellationDetail: 0
+      bones: []
+      spriteID: babbb3926ee21ff4687c03b70d3a36ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: headLight
+      rect:
+        serializedVersion: 2
+        x: 43.5
+        y: 129.5
+        width: 42
+        height: 42
+      alignment: 9
+      pivot: {x: 0.4910714, y: 0.4880952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.875, y: -21}
+        - {x: -20.875, y: -18}
+        - {x: -20.875, y: 21}
+        - {x: 21.125, y: 21}
+        - {x: 21.125, y: -21}
+      physicsShape:
+      - - {x: -20.875, y: 21}
+        - {x: -20.875, y: -21}
+        - {x: 21.125, y: -21}
+        - {x: 21.125, y: 21}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5097079f36dad954780d48bbac555261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

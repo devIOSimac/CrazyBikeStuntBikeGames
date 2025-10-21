@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Pop Tire
+  - Underside
+  - trailerShadow
+  - truckShadow
+  - cityRoad
+  - Building
+  - Street
+  - Grass
+  - Needle
+  - Bar
+  - SpeedText
+  - GearText
+  - Sand
+  - NavPoint
+  - needle
+  - Opponent
+  - ResetPanel
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  -
+  - Water
+  - UI
+  -
+  -
+  - Ignore Wheel Cast
+  - Vehicles
+  - Detachable Part
+  - p
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

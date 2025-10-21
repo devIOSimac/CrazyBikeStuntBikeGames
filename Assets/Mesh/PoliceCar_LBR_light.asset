@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  m_Name: PoliceCar_LBR_light
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 51
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 19
+    localAABB:
+      m_Center: {x: -0.0006013057, y: -0.0002643525, z: 0.0003822267}
+      m_Extent: {x: 0.001435358, y: 0.001095704, z: 0.001347147}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes:
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 2
+  m_IsReadable: 1
+  m_KeepVertices: 0
+  m_KeepIndices: 0
+  m_IndexFormat: 0
+  m_IndexBuffer:
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 0
+    m_VertexCount: 0
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 0
+    _typelessdata:
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 57
+      m_Range: 0.003766037
+      m_Start: -0.002036664
+      m_Data: d91044c03e7c868437b7f9570000f4c22e5a5084b5b48ea09f2386bbada39f83fb8dffff3298b77ab5f393ada491a09b2e9eac9f7857b0a8ba96615744b0c25522e293ada491a09b3298b77ab5f348c10f6ab19023c3dd40b1903dbac871a5537cae398b4256b0a8ba9661571cbcfe2dda48
+      m_BitSize: 16
+    m_UV:
+      m_NumItems: 38
+      m_Range: 0.8139988
+      m_Start: 0.1691904
+      m_Data: 56599090015c0130d10c4cb950d21a13c5814f0ff440e0ce04ef13fd7fcafe27fdfec9e2abec7ec4f943ecffc3d84b0c
+      m_BitSize: 10
+    m_Normals:
+      m_NumItems: 38
+      m_Range: 0.9538473
+      m_Start: 0.04476814
+      m_Data: 0bfe60e80cfe5ae508fb85c4c389c892a4bdc59be54cc892c389f733ff00f734e46ac59bfe00
+      m_BitSize: 8
+    m_Tangents:
+      m_NumItems: 38
+      m_Range: 1.967768
+      m_Start: -0.9922268
+      m_Data: 008b0eb2008c0bab00871aad32c533db26cf35df50f832e734e961fc7aff64fc49f431e57eff
+      m_BitSize: 8
+    m_Weights:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 19
+      m_Data: ff7d00
+      m_BitSize: 1
+    m_TangentSigns:
+      m_NumItems: 38
+      m_Data: ffffffff3f
+      m_BitSize: 1
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 51
+      m_Data: 20881100198094614639c31c34c240091db5585b4ab9e65e83ed35b8168cf239
+      m_BitSize: 5
+    m_UVInfo: 5
+  m_LocalAABB:
+    m_Center: {x: -0.0006013057, y: -0.0002643525, z: 0.0003822267}
+    m_Extent: {x: 0.001435358, y: 0.001095704, z: 0.001347147}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh:
+  m_BakedTriangleCollisionMesh:
+  m_MeshOptimized: 1

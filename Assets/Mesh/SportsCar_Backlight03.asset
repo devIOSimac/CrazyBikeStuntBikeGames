@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  m_Name: SportsCar_Backlight03
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 18
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 8
+    localAABB:
+      m_Center: {x: 0.000141482, y: -1.379012E-05, z: 4.981845E-05}
+      m_Extent: {x: 0.00164067, y: 0.0007005346, z: 0.0003582302}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes:
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 2
+  m_IsReadable: 1
+  m_KeepVertices: 0
+  m_KeepIndices: 0
+  m_IndexFormat: 0
+  m_IndexBuffer:
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 0
+    m_VertexCount: 0
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 0
+    _typelessdata:
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 24
+      m_Range: 0.003281341
+      m_Start: -0.001499188
+      m_Data: 133e3c5d6a80fa40c362fd60ae0b8444e65c00003b3dd6738493ab8b9b8a7ca05a8bb667f4e889aacb94ffff61a4706e
+      m_BitSize: 16
+    m_UV:
+      m_NumItems: 16
+      m_Range: 0.5801301
+      m_Start: 0.2899689
+      m_Data: 67c0df86f012000f40f8f1e01f10f17bfd6f99f1
+      m_BitSize: 10
+    m_Normals:
+      m_NumItems: 16
+      m_Range: 1.420477
+      m_Start: -0.4819862
+      m_Data: 04f605f600f300f315fd1afe26ff26ff
+      m_BitSize: 8
+    m_Tangents:
+      m_NumItems: 16
+      m_Range: 0.6713417
+      m_Start: 0.2858102
+      m_Data: e541e540e04ae04af321f718ff00ff00
+      m_BitSize: 8
+    m_Weights:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 8
+      m_Data: 0e
+      m_BitSize: 1
+    m_TangentSigns:
+      m_NumItems: 16
+      m_Data: 5555
+      m_BitSize: 1
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 18
+      m_Data: 88a03160e3d22f
+      m_BitSize: 3
+    m_UVInfo: 5
+  m_LocalAABB:
+    m_Center: {x: 0.000141482, y: -1.379012E-05, z: 4.981845E-05}
+    m_Extent: {x: 0.00164067, y: 0.0007005346, z: 0.0003582302}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh:
+  m_BakedTriangleCollisionMesh:
+  m_MeshOptimized: 1

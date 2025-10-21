@@ -1,0 +1,1489 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1593072276136920}
+  m_IsPrefabParent: 1
+--- !u!1 &1593072276136920
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4482254667317812}
+  - component: {fileID: 95425780569239392}
+  m_Layer: 0
+  m_Name: Landmarks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4482254667317812
+Transform:
+  m_GameObject: {fileID: 1593072276136920}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4337361276045343}
+  - {fileID: 4690598469694254}
+  - {fileID: 4133459607001705}
+  - {fileID: 4244515886330477}
+  - {fileID: 4608578026859800}
+  - {fileID: 4129345911442857}
+  - {fileID: 4346307112360458}
+  - {fileID: 4821588473367779}
+  - {fileID: 4890733687745559}
+  - {fileID: 4579007315878973}
+  - {fileID: 4805609329225960}
+  - {fileID: 4222694391471179}
+  - {fileID: 4928376203197961}
+  - {fileID: 4562040597631137}
+  - {fileID: 4519461652550265}
+  - {fileID: 4990722612603234}
+  - {fileID: 4249644351664298}
+  - {fileID: 4435348868131878}
+  - {fileID: 4499157042857035}
+  - {fileID: 4949761562217362}
+  - {fileID: 4311050080898705}
+  - {fileID: 4558201148357727}
+  - {fileID: 4403583396274356}
+  - {fileID: 4038550590147039}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &95425780569239392
+Animator:
+  serializedVersion: 3
+  m_GameObject: {fileID: 1593072276136920}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: a2f40f8368b77c240b09ddae4baae455, type: 2}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage:
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!1 &1062843272168346
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4337361276045343}
+  - component: {fileID: 33919076597392184}
+  - component: {fileID: 23317051591658721}
+  m_Layer: 0
+  m_Name: BuildingLandmark01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4337361276045343
+Transform:
+  m_GameObject: {fileID: 1062843272168346}
+  m_LocalRotation: {x: 2.185569E-08, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -478.5071, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4482254667317812}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 2.504478E-06, y: 0, z: 0}
+--- !u!33 &33919076597392184
+MeshFilter:
+  m_GameObject: {fileID: 1062843272168346}
+  m_Mesh: {fileID: 4300000, guid: 9b5f1a0faeacb9145aecfc62caadc55f, type: 2}
+--- !u!23 &23317051591658721
+MeshRenderer:
+  m_GameObject: {fileID: 1062843272168346}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1429575599900003
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4690598469694254}
+  - component: {fileID: 33865617636383137}
+  - component: {fileID: 23375025420424190}
+  m_Layer: 0
+  m_Name: BuildingLandmark02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4690598469694254
+Transform:
+  m_GameObject: {fileID: 1429575599900003}
+  m_LocalRotation: {x: 2.185569E-08, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1008.027, y: 0, z: -7.629395E-06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4482254667317812}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 2.504478E-06, y: 0, z: 0}
+--- !u!33 &33865617636383137
+MeshFilter:
+  m_GameObject: {fileID: 1429575599900003}
+  m_Mesh: {fileID: 4300000, guid: 66fad1ae49cdb6b44bcf2533a24bc4bc, type: 2}
+--- !u!23 &23375025420424190
+MeshRenderer:
+  m_GameObject: {fileID: 1429575599900003}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1245165749093783
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4133459607001705}
+  - component: {fileID: 33346265398687045}
+  - component: {fileID: 23737171920516247}
+  m_Layer: 0
+  m_Name: BuildingLandmark03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4133459607001705
+Transform:
+  m_GameObject: {fileID: 1245165749093783}
+  m_LocalRotation: {x: 2.185569E-08, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -752.5559, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4482254667317812}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 2.504478E-06, y: 0, z: 0}
+--- !u!33 &33346265398687045
+MeshFilter:
+  m_GameObject: {fileID: 1245165749093783}
+  m_Mesh: {fileID: 4300000, guid: 50a2117d71e1c204fa3599e7fce8b73b, type: 2}
+--- !u!23 &23737171920516247
+MeshRenderer:
+  m_GameObject: {fileID: 1245165749093783}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1478108562391273
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4244515886330477}
+  - component: {fileID: 33893881814427934}
+  - component: {fileID: 23988004683362190}
+  m_Layer: 0
+  m_Name: BuildingLandmark04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4244515886330477
+Transform:
+  m_GameObject: {fileID: 1478108562391273}
+  m_LocalRotation: {x: 2.185569E-08, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1634.965, y: 0, z: 25.03403}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4482254667317812}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 2.504478E-06, y: 0, z: 0}
+--- !u!33 &33893881814427934
+MeshFilter:
+  m_GameObject: {fileID: 1478108562391273}
+  m_Mesh: {fileID: 4300000, guid: c923a4fa0ee3d3043bfe92747edff8da, type: 2}
+--- !u!23 &23988004683362190
+MeshRenderer:
+  m_GameObject: {fileID: 1478108562391273}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1980119529686156
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4608578026859800}
+  - component: {fileID: 33380165686560694}
+  - component: {fileID: 23527961727810801}
+  m_Layer: 0
+  m_Name: BuildingLandmark05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4608578026859800
+Transform:
+  m_GameObject: {fileID: 1980119529686156}
+  m_LocalRotation: {x: 2.185569E-08, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1764.218, y: 0, z: 9.536743E-07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4482254667317812}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 2.504478E-06, y: 0, z: 0}
+--- !u!33 &33380165686560694
+MeshFilter:
+  m_GameObject: {fileID: 1980119529686156}
+  m_Mesh: {fileID: 4300000, guid: 7cdc15db5ec1f8f4091f095b7f6d1dd2, type: 2}
+--- !u!23 &23527961727810801
+MeshRenderer:
+  m_GameObject: {fileID: 1980119529686156}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1772387505702832
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4129345911442857}
+  - component: {fileID: 33982402178450691}
+  - component: {fileID: 23574936012636370}
+  m_Layer: 0
+  m_Name: BuildingLandmark06
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4129345911442857
+Transform:
+  m_GameObject: {fileID: 1772387505702832}
+  m_LocalRotation: {x: -2.165629E-07, y: 1.893253E-14, z: -8.742278E-08, w: 1}
+  m_LocalPosition: {x: -840.574, y: 0, z: 1.430511E-05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4482254667317812}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -2.481628E-05, y: 3.71159E-20, z: 1.001791E-05}
+--- !u!33 &33982402178450691
+MeshFilter:
+  m_GameObject: {fileID: 1772387505702832}
+  m_Mesh: {fileID: 4300000, guid: 5d38364dd1c27ab41b2f2c8f7035dd87, type: 2}
+--- !u!23 &23574936012636370
+MeshRenderer:
+  m_GameObject: {fileID: 1772387505702832}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1183243614309958
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4346307112360458}
+  - component: {fileID: 33558205783028283}
+  - component: {fileID: 23019102611205442}
+  m_Layer: 0
+  m_Name: BuildingLandmark07
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4346307112360458
+Transform:
+  m_GameObject: {fileID: 1183243614309958}
+  m_LocalRotation: {x: -2.165629E-07, y: 1.893253E-14, z: -8.742278E-08, w: 1}
+  m_LocalPosition: {x: -923.0955, y: 0, z: 1.811981E-05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4482254667317812}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: -2.481628E-05, y: 3.71159E-20, z: 1.001791E-05}
+--- !u!33 &33558205783028283
+MeshFilter:
+  m_GameObject: {fileID: 1183243614309958}
+  m_Mesh: {fileID: 4300000, guid: 44a95c6f04e506a4681dd1875ede2d38, type: 2}
+--- !u!23 &23019102611205442
+MeshRenderer:
+  m_GameObject: {fileID: 1183243614309958}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1038774799504971
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4821588473367779}
+  - component: {fileID: 33046888865334819}
+  - component: {fileID: 23294256991714267}
+  m_Layer: 0
+  m_Name: BuildingLandmark08
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4821588473367779
+Transform:
+  m_GameObject: {fileID: 1038774799504971}
+  m_LocalRotation: {x: 2.185569E-08, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1482.104, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4482254667317812}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 2.504478E-06, y: 0, z: 0}
+--- !u!33 &33046888865334819
+MeshFilter:
+  m_GameObject: {fileID: 1038774799504971}
+  m_Mesh: {fileID: 4300000, guid: 1f63c2e5f83dbfb4d8dd4eab8f2f23ed, type: 2}
+--- !u!23 &23294256991714267
+MeshRenderer:
+  m_GameObject: {fileID: 1038774799504971}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1565589385379042
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4890733687745559}
+  - component: {fileID: 33180142756696695}
+  - component: {fileID: 23712510860760525}
+  m_Layer: 0
+  m_Name: BuildingLandmark09
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4890733687745559
+Transform:
+  m_GameObject: {fileID: 1565589385379042}
+  m_LocalRotation: {x: 2.185569E-08, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1365.231, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4482254667317812}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 2.504478E-06, y: 0, z: 0}
+--- !u!33 &33180142756696695
+MeshFilter:
+  m_GameObject: {fileID: 1565589385379042}
+  m_Mesh: {fileID: 4300000, guid: 8c67f1dde72a08b489d0813dde1bf363, type: 2}
+--- !u!23 &23712510860760525
+MeshRenderer:
+  m_GameObject: {fileID: 1565589385379042}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1731214268649041
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4579007315878973}
+  - component: {fileID: 33679720636899743}
+  - component: {fileID: 23801391907267499}
+  m_Layer: 0
+  m_Name: BuildingLandmark10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4579007315878973
+Transform:
+  m_GameObject: {fileID: 1731214268649041}
+  m_LocalRotation: {x: 2.185569E-08, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1301.073, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4482254667317812}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 2.504478E-06, y: 0, z: 0}
+--- !u!33 &33679720636899743
+MeshFilter:
+  m_GameObject: {fileID: 1731214268649041}
+  m_Mesh: {fileID: 4300000, guid: 91af45e6f92d06f4794690a80416fc77, type: 2}
+--- !u!23 &23801391907267499
+MeshRenderer:
+  m_GameObject: {fileID: 1731214268649041}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1123801591042496
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4805609329225960}
+  - component: {fileID: 33084490776721561}
+  - component: {fileID: 23455236465724572}
+  m_Layer: 0
+  m_Name: BuildingLandmark11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4805609329225960
+Transform:
+  m_GameObject: {fileID: 1123801591042496}
+  m_LocalRotation: {x: 2.185569E-08, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2495.854, y: 0, z: -8.583069E-06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4482254667317812}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 2.504478E-06, y: 0, z: 0}
+--- !u!33 &33084490776721561
+MeshFilter:
+  m_GameObject: {fileID: 1123801591042496}
+  m_Mesh: {fileID: 4300000, guid: e2e2453e2611eaa40834369586fb97d3, type: 2}
+--- !u!23 &23455236465724572
+MeshRenderer:
+  m_GameObject: {fileID: 1123801591042496}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1460529917752349
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4222694391471179}
+  - component: {fileID: 33215856516063678}
+  - component: {fileID: 23034780871868530}
+  m_Layer: 0
+  m_Name: BuildingLandmark12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4222694391471179
+Transform:
+  m_GameObject: {fileID: 1460529917752349}
+  m_LocalRotation: {x: 2.185569E-08, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2057.996, y: 0, z: -5.722046E-06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4482254667317812}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 2.504478E-06, y: 0, z: 0}
+--- !u!33 &33215856516063678
+MeshFilter:
+  m_GameObject: {fileID: 1460529917752349}
+  m_Mesh: {fileID: 4300000, guid: b535dab6f40af7f4c98b5d04845b96e4, type: 2}
+--- !u!23 &23034780871868530
+MeshRenderer:
+  m_GameObject: {fileID: 1460529917752349}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1300620210847950
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4928376203197961}
+  - component: {fileID: 33587356847207072}
+  - component: {fileID: 23685431745004949}
+  m_Layer: 0
+  m_Name: BuildingLandmark13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4928376203197961
+Transform:
+  m_GameObject: {fileID: 1300620210847950}
+  m_LocalRotation: {x: 2.185569E-08, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2201.886, y: 0, z: -5.722046E-06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4482254667317812}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 2.504478E-06, y: 0, z: 0}
+--- !u!33 &33587356847207072
+MeshFilter:
+  m_GameObject: {fileID: 1300620210847950}
+  m_Mesh: {fileID: 4300000, guid: 4be03eac30ca16643be0f7a5781bfaf8, type: 2}
+--- !u!23 &23685431745004949
+MeshRenderer:
+  m_GameObject: {fileID: 1300620210847950}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1973601795593644
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4562040597631137}
+  - component: {fileID: 33651620605197706}
+  - component: {fileID: 23393937551378550}
+  m_Layer: 0
+  m_Name: BuildingLandmark14
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4562040597631137
+Transform:
+  m_GameObject: {fileID: 1973601795593644}
+  m_LocalRotation: {x: 2.185569E-08, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1915.599, y: 0, z: 2.267752E-06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4482254667317812}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 2.504478E-06, y: 0, z: 0}
+--- !u!33 &33651620605197706
+MeshFilter:
+  m_GameObject: {fileID: 1973601795593644}
+  m_Mesh: {fileID: 4300000, guid: 186a572c0c9f0ec41a90c60fcc807dd2, type: 2}
+--- !u!23 &23393937551378550
+MeshRenderer:
+  m_GameObject: {fileID: 1973601795593644}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1289217019048424
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4519461652550265}
+  - component: {fileID: 33010791917702309}
+  - component: {fileID: 23239434203095859}
+  m_Layer: 0
+  m_Name: BuildingLandmark15
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4519461652550265
+Transform:
+  m_GameObject: {fileID: 1289217019048424}
+  m_LocalRotation: {x: 2.185569E-08, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1211.857, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4482254667317812}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 2.504478E-06, y: 0, z: 0}
+--- !u!33 &33010791917702309
+MeshFilter:
+  m_GameObject: {fileID: 1289217019048424}
+  m_Mesh: {fileID: 4300000, guid: 4e579d6e0010cfc4d8789ed56f18bfe3, type: 2}
+--- !u!23 &23239434203095859
+MeshRenderer:
+  m_GameObject: {fileID: 1289217019048424}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1533170944481725
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4990722612603234}
+  - component: {fileID: 33707003485620090}
+  - component: {fileID: 23306962627428190}
+  m_Layer: 0
+  m_Name: BuildingLandmark16
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4990722612603234
+Transform:
+  m_GameObject: {fileID: 1533170944481725}
+  m_LocalRotation: {x: -3.774895E-08, y: 3.300118E-15, z: -8.742278E-08, w: 1}
+  m_LocalPosition: {x: -2678.714, y: 0, z: -1.049042E-05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4482254667317812}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: -4.325711E-06, y: -9.044309E-23, z: 1.001791E-05}
+--- !u!33 &33707003485620090
+MeshFilter:
+  m_GameObject: {fileID: 1533170944481725}
+  m_Mesh: {fileID: 4300000, guid: 0e77f6f96dd9f88489aeaee29c63d4ec, type: 2}
+--- !u!23 &23306962627428190
+MeshRenderer:
+  m_GameObject: {fileID: 1533170944481725}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1992934886317210
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4249644351664298}
+  - component: {fileID: 33374448401597893}
+  - component: {fileID: 23091716985755498}
+  m_Layer: 0
+  m_Name: BuildingLandmark17
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4249644351664298
+Transform:
+  m_GameObject: {fileID: 1992934886317210}
+  m_LocalRotation: {x: 2.185569E-08, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2765.705, y: 0, z: -3.814697E-06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4482254667317812}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 2.504478E-06, y: 0, z: 0}
+--- !u!33 &33374448401597893
+MeshFilter:
+  m_GameObject: {fileID: 1992934886317210}
+  m_Mesh: {fileID: 4300000, guid: e24cca7877cfee84b8d4d7bcc95fd710, type: 2}
+--- !u!23 &23091716985755498
+MeshRenderer:
+  m_GameObject: {fileID: 1992934886317210}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1412420728069321
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4435348868131878}
+  - component: {fileID: 33298455397551379}
+  - component: {fileID: 23844053925158433}
+  m_Layer: 0
+  m_Name: BuildingLandmark18
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4435348868131878
+Transform:
+  m_GameObject: {fileID: 1412420728069321}
+  m_LocalRotation: {x: 2.185569E-08, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1092.281, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4482254667317812}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 2.504478E-06, y: 0, z: 0}
+--- !u!33 &33298455397551379
+MeshFilter:
+  m_GameObject: {fileID: 1412420728069321}
+  m_Mesh: {fileID: 4300000, guid: 648c92462728aa14496a2dbaf6b87cc4, type: 2}
+--- !u!23 &23844053925158433
+MeshRenderer:
+  m_GameObject: {fileID: 1412420728069321}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1424189352042578
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4499157042857035}
+  - component: {fileID: 33444810199126026}
+  - component: {fileID: 23218862149920564}
+  m_Layer: 0
+  m_Name: BuildingLandmark19
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4499157042857035
+Transform:
+  m_GameObject: {fileID: 1424189352042578}
+  m_LocalRotation: {x: 2.185569E-08, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2321.492, y: 0, z: -3.814697E-06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4482254667317812}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 2.504478E-06, y: 0, z: 0}
+--- !u!33 &33444810199126026
+MeshFilter:
+  m_GameObject: {fileID: 1424189352042578}
+  m_Mesh: {fileID: 4300000, guid: c0c064eddcfbe324ba024af589c6f7f3, type: 2}
+--- !u!23 &23218862149920564
+MeshRenderer:
+  m_GameObject: {fileID: 1424189352042578}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1219058354431484
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4949761562217362}
+  - component: {fileID: 33462440555367284}
+  - component: {fileID: 23525719419649947}
+  m_Layer: 0
+  m_Name: BuildingLandmark20
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4949761562217362
+Transform:
+  m_GameObject: {fileID: 1219058354431484}
+  m_LocalRotation: {x: 2.185569E-08, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -603.2843, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4482254667317812}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 2.504478E-06, y: 0, z: 0}
+--- !u!33 &33462440555367284
+MeshFilter:
+  m_GameObject: {fileID: 1219058354431484}
+  m_Mesh: {fileID: 4300000, guid: e6cabde9e0c4e234796fb97f1216c0c4, type: 2}
+--- !u!23 &23525719419649947
+MeshRenderer:
+  m_GameObject: {fileID: 1219058354431484}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1759416363441779
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4311050080898705}
+  - component: {fileID: 33086767006586228}
+  - component: {fileID: 23303558182817693}
+  m_Layer: 0
+  m_Name: BuildingLandmark21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4311050080898705
+Transform:
+  m_GameObject: {fileID: 1759416363441779}
+  m_LocalRotation: {x: 2.185569E-08, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -666.7654, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4482254667317812}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 2.504478E-06, y: 0, z: 0}
+--- !u!33 &33086767006586228
+MeshFilter:
+  m_GameObject: {fileID: 1759416363441779}
+  m_Mesh: {fileID: 4300000, guid: 988d09c15cd0c4b43903a20b638c6bae, type: 2}
+--- !u!23 &23303558182817693
+MeshRenderer:
+  m_GameObject: {fileID: 1759416363441779}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1696746481049584
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4558201148357727}
+  - component: {fileID: 33371542497448456}
+  - component: {fileID: 23113801876665046}
+  m_Layer: 0
+  m_Name: BuildingLandmarkGarage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4558201148357727
+Transform:
+  m_GameObject: {fileID: 1696746481049584}
+  m_LocalRotation: {x: 2.185569E-08, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 608.8341, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4482254667317812}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 2.504478E-06, y: 0, z: 0}
+--- !u!33 &33371542497448456
+MeshFilter:
+  m_GameObject: {fileID: 1696746481049584}
+  m_Mesh: {fileID: 4300000, guid: 004ed7bcdf3eb494daf06b9f15054800, type: 2}
+--- !u!23 &23113801876665046
+MeshRenderer:
+  m_GameObject: {fileID: 1696746481049584}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1790361283000598
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4403583396274356}
+  - component: {fileID: 33341041422072767}
+  - component: {fileID: 23843785412576964}
+  m_Layer: 0
+  m_Name: BuildingLandmarkStadium
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4403583396274356
+Transform:
+  m_GameObject: {fileID: 1790361283000598}
+  m_LocalRotation: {x: 2.185569E-08, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4482254667317812}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 2.504478E-06, y: 0, z: 0}
+--- !u!33 &33341041422072767
+MeshFilter:
+  m_GameObject: {fileID: 1790361283000598}
+  m_Mesh: {fileID: 4300000, guid: 532afdece9a7f5249957c1a29dd97b85, type: 2}
+--- !u!23 &23843785412576964
+MeshRenderer:
+  m_GameObject: {fileID: 1790361283000598}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1494811101970174
+GameObject:
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4038550590147039}
+  - component: {fileID: 33462695800077008}
+  - component: {fileID: 23476878968187232}
+  m_Layer: 0
+  m_Name: BuildingLandmarkTerminal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4038550590147039
+Transform:
+  m_GameObject: {fileID: 1494811101970174}
+  m_LocalRotation: {x: 2.185569E-08, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1108.834, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4482254667317812}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 2.504478E-06, y: 0, z: 0}
+--- !u!33 &33462695800077008
+MeshFilter:
+  m_GameObject: {fileID: 1494811101970174}
+  m_Mesh: {fileID: 4300000, guid: c2f4e22b28ddc014ea237bb6c9cb6e74, type: 2}
+--- !u!23 &23476878968187232
+MeshRenderer:
+  m_GameObject: {fileID: 1494811101970174}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
